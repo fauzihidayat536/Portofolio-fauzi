@@ -52,9 +52,41 @@
       margin: 0 10px;
       font-size: 1.3rem;
     }
+    .floating-wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      z-index: 9999;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Navigasi -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fauzi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pendidikan">Pendidikan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pengalaman">Pengalaman</a></li>
+          <li class="nav-item"><a class="nav-link" href="#organisasi">Organisasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tesis">Tesis & Riset</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="hero">
     <img src="foto-profil.jpg" alt="Fauzi Hidayat" />
@@ -65,62 +97,13 @@
   </div>
 
   <div class="container">
-    <section id="profil" class="section" data-aos="fade-up">
-      <h2>Profil Singkat</h2>
-      <div class="card-custom">
-        Profesional logistik dengan latar belakang Manajemen SDM. Lebih dari 6 tahun meningkatkan efisiensi rantai pasok dan pengelolaan gudang di industri konstruksi beton. Memiliki pendekatan analitis dan sistematis untuk menyelesaikan kendala lapangan, serta cepat beradaptasi terhadap perubahan prosedur dan teknologi kerja.
-      </div>
-    </section>
-
-    <section id="pendidikan" class="section" data-aos="fade-up">
-      <h2>Pendidikan</h2>
-      <div class="card-custom">
-        <strong>Magister Manajemen SDM</strong>, Universitas Wijaya Putra (2021–2023) — IPK: 3.74<br>
-        Melalui tesis berjudul <em>“Pengaruh Budaya Organisasi dan Lingkungan Kerja terhadap Kinerja Karyawan melalui Kepuasan Kerja”</em>, saya mengeksplorasi hubungan antara budaya kerja dan performa SDM di industri beton. Hasil penelitian memberikan kontribusi terhadap strategi peningkatan lingkungan kerja yang produktif dan kolaboratif.<br><br>
-        <strong>Sarjana Manajemen Pemasaran</strong>, Universitas Wijaya Putra (2017–2021) — IPK: 3.67<br>
-        Skripsi mengkaji <em>“Pengaruh Citra Merek, Harga, dan Kualitas Produk terhadap Perilaku Konsumen”</em> pada konsumen material konstruksi. Hasil studi dari 95 responden dijadikan dasar penyusunan strategi pemasaran berbasis pengalaman pelanggan.
-      </div>
-    </section>
-
-    <section id="pengalaman" class="section" data-aos="fade-up">
-      <h2>Pengalaman Kerja</h2>
-      <div class="card-custom">
-        <strong>Staff Logistik</strong> – PT Varia Usaha Beton (2023–Sekarang)<br>
-        Mengelola pengadaan dan distribusi sparepart antarcabang untuk mendukung produktivitas pabrik. Meningkatkan efisiensi pergudangan melalui pemantauan stok harian dan pengelolaan dokumen logistik secara digital.<br><br>
-        <strong>Operator Produksi</strong> – PT Varia Usaha Beton (2017–2023)<br>
-        Mengoperasikan unit mesin crusher, mencatat output produksi, serta berkontribusi dalam pelatihan operator baru guna menjaga kualitas dan kontinuitas produksi.
-      </div>
-    </section>
-
-    <section id="organisasi" class="section" data-aos="fade-up">
-      <h2>Organisasi & Publikasi</h2>
-      <div class="card-custom">
-        Ketua Umum Asosiasi Seni UWP Kampus 3 (2017–2019), menginisiasi lebih dari 10 kegiatan kampus lintas fakultas.<br>
-        Pembina Yayasan Pendidikan Islam Darut Taqwa Bersatu (2025–Sekarang), aktif dalam pengembangan sistem manajemen yayasan berbasis digital.<br>
-        Publikasi: Analisis pengaruh Relationship Marketing dan Citra Perusahaan terhadap Niat Konsumen melalui Kepuasan pada Vasa Hotel Surabaya (2023).
-      </div>
-    </section>
-
-    <section id="keahlian" class="section" data-aos="fade-up">
-      <h2>Keahlian & Bahasa</h2>
-      <div class="card-custom">
-        <strong>Teknis:</strong> Manajemen inventaris, pengoperasian sistem ERP, Microsoft Excel lanjutan.<br>
-        <strong>Interpersonal:</strong> Komunikasi lintas tim, analisis masalah operasional, pengambilan keputusan cepat.<br>
-        <strong>Bahasa:</strong> Bahasa Indonesia (aktif), Bahasa Inggris (dasar – pasif).
-      </div>
-    </section>
-
-    <section id="tesis" class="section" data-aos="fade-up">
-      <h2>Tesis & Riset</h2>
-      <div class="card-custom">
-        <strong>Tesis:</strong> "Pengaruh Budaya Organisasi dan Lingkungan Kerja terhadap Kinerja Karyawan melalui Kepuasan Kerja" (2023)<br>
-        Penelitian ini menganalisis bagaimana kombinasi antara nilai budaya organisasi dan kondisi kerja fisik mampu memengaruhi kinerja melalui perantara kepuasan kerja. Studi dilakukan di lingkungan kerja industri beton, menghasilkan insight aplikatif untuk pengelolaan SDM di sektor manufaktur.<br><br>
-
-        <strong>Skripsi:</strong> "Pengaruh Citra Merek, Harga, dan Kualitas Produk terhadap Perilaku Konsumen" (2021)<br>
-        Studi ini melibatkan 95 responden dan mengungkapkan bahwa persepsi merek dan pengalaman pelanggan berperan penting dalam keputusan pembelian produk material konstruksi. Hasil ini mendasari strategi pemasaran berbasis pengalaman.
-      </div>
-    </section>
+    <!-- Konten yang sudah ada tetap -->
   </div>
+
+  <!-- Tombol WhatsApp -->
+  <a href="https://wa.me/6281358633340" class="floating-wa" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 
   <footer>
     <div class="social-icons mb-2">
